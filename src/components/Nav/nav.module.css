@@ -1,0 +1,32 @@
+.nav{
+  padding: 40px 30px 20px 30px;
+    display: flex;
+    justify-content:space-between;
+}
+.logo {
+  cursor: pointer;
+}
+.right{
+    display: flex;
+    justify-content:space-between;
+    /* margin-left:20px */
+}
+.small {
+  background: #6d3cc8;
+  width: 36px;
+  height: 36px;
+  border-radius:50%;
+  align-items: center;
+}
+.details{
+    display: flex;
+    
+}
+
+.inner span{
+justify-content: flex-end
+}
+.name{
+    display: flex;
+    justify-content: flex-end;  
+}

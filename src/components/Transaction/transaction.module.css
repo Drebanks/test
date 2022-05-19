@@ -1,0 +1,16 @@
+.conten {
+  display: flex;
+  justify-content: space-between;
+}
+table {
+  width: 100%;
+  text-align: left;
+}
+table th {
+  color: #04004d;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}

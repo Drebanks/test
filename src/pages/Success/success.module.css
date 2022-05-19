@@ -1,0 +1,108 @@
+.container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(165, 134, 234, 0.075) 88.02%,
+    rgba(152, 116, 231, 0.15) 106.17%
+  );
+  height: 100vh;
+}
+.net {
+  /* background: red; */
+  margin: 0 auto;
+  width: 100%;
+  max-width: 550px;
+}
+.contents {
+  /* margin: 0 auto;
+    width: 100%;
+    max-width:550px; */
+  /* background:blue; */
+}
+.nothing {
+  /* background: green; */
+  background: #ffffff;
+  border-radius: 9px;
+  padding: 40px;
+}
+.image {
+  /* margin: 0 auto;
+width: 500px;
+max-width: 70%; */
+  display: flex;
+  justify-content: center;
+}
+.imag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fbf7fd;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+.inne {
+  background: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+}
+.imag > img {
+  width: 50%;
+  position: absolute;
+  top: 50px;
+}
+.look {
+    font-family: var(--);
+  text-align: center;
+  font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+margin-top: 20px;
+}
+.looks {
+    margin-top: 20px;
+  text-align: center;
+  font-weight: 400;
+font-size: 18px;
+opacity: 0.8;
+}
+.buts {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn {
+  background: #5f31b4;
+  border: 1px solid #48258d;
+  border-radius: 9px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top:30px;
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 23px;
+color: #04004D;
+}

@@ -1,0 +1,193 @@
+.container {
+  background: #e5e5e5;
+  padding: 40px;
+}
+.lools {
+  display: flex;
+}
+.content {
+  background: #ffffff;
+  box-shadow: -1px -1px 3px rgba(190, 171, 227, 0.14);
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  padding:30px;
+  /* margin-top: 20px; */
+}
+.per{
+    color: #04004D;
+    font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+}
+.chart{
+    background: #FFFFFF;
+border: 0.5px solid #5F31B4;
+box-shadow: 0px 6px 38px rgba(0, 0, 0, 0.06);
+border-radius: 20px;
+width:50%
+}
+.rite{
+  flex-basis: 70%;
+}
+.leftt{
+  flex-basis: 25%;
+  border-left: 1px solid #F0EDF2;
+  padding: 30px;
+}
+.board{
+  display: flex;
+  justify-content:space-between;
+}
+.card{
+  background-image: url("../../assets/images/dash/bg.svg");
+  /* background: #48258D; */
+border-radius: 10px;
+width: 334px;
+height: 182px;
+padding: 30px 30px 10px 20px;
+}
+.card p{
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+margin-bottom:7px;
+}
+.card span:nth-of-type(1){
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.card span:last-of-type{
+  background: #3D2381;
+border-radius: 10px;
+font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+padding:15px;
+}
+.pret{
+  font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #04004D;
+}
+.grey{
+  background: #FBF7FD;
+border-radius: 10px;
+padding: 20px;
+margin-top:20px;
+display: flex;
+gap: 30px;
+}
+.grey div p{
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #04004D;
+}
+.grey div span{
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #04004D;
+
+}
+.down{
+  background: #5F31B4;
+border-radius: 10px;
+width: 41px;
+height: 42px;
+display: flex;
+justify-content: center;
+}
+.down > img{
+  width: 40%;
+}
+.downs{
+  background: #059669;
+border-radius: 10px;
+width: 41px;
+height: 42px;
+display: flex;
+justify-content: center;
+}
+.downs > img{
+  width: 40%;
+}
+.pay{
+  background: #FFFFFF;
+box-shadow: 0px 4px 164px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+padding: 20px;
+margin-top: 30px;
+}
+.ins{
+  display: flex;
+  justify-content: space-between;
+}
+.ins p{
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #04004D;
+}
+.circle{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+
+
+}
+
+.cicle > img{
+  width: 40%;
+}
+.circle span:first-of-type{
+  width: 85px;
+height: 70px;
+background: #FBF7FD;
+border-radius: 6px;
+font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #6D3CC8;
+display: flex;
+justify-content:center;
+align-items:center;
+/* text-align: center; */
+}
+.circle span:last-of-type{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 85px;
+  height: 70px;
+background: #ECFDF5;
+border-radius: 6px;
+font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #059669;
+}
