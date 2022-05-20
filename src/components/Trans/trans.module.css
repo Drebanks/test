@@ -1,0 +1,12 @@
+table {
+  width: 100%;
+  text-align: left;
+}
+
+.tran {
+  margin-top: 10px;
+  background: #fbf7fd;
+  border-radius: 10px;
+  color: #9da8b6;
+  line-height: 30px;
+}

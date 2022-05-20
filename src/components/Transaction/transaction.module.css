@@ -1,10 +1,42 @@
 .conten {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #F0EDF2;
+  padding-bottom:14px;
+}
+.conten p{
+  color: #04004D;
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;  
+}
+.conten div{
+  display: flex;
+  gap: 10px;
+}
+
+.conten div span{
+  color: #6D3CC8;
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+.mach{
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 }
 table {
   width: 100%;
   text-align: left;
+  padding: 20px;
 }
 table th {
   color: #04004d;
@@ -14,3 +46,21 @@ table th {
   font-size: 14px;
   line-height: 18px;
 }
+table tr{
+  padding: 20px 0;
+}
+table td{
+  background: #FBF7FD;
+border-radius: 10px;
+}
+.loool
+{
+  display: flex;
+  justify-content: space-between;
+}
+.result{
+  display: flex;
+  flex-direction:column;
+  
+}
+

@@ -18,9 +18,12 @@ const Dashboard = () => {
                     <div className={classes.board}>
                         <div className={classes.rite}>
                             <p className={classes.per}>Dashboard</p>
+                            <br/>
                             <div className={classes.chart}>
                                 <LineChart />
                             </div>
+                            <br/>
+                            <br/>
                             <Transaction />
                         </div>
                         <div className={classes.leftt}>
@@ -43,7 +46,7 @@ const Dashboard = () => {
                                     <span>NGN 7,000,000.00</span>
                                 </div>
                             </div>
-                            <div className={classes.grey}>
+                            <div className={classes.greys}>
                                 <div className={classes.downs}>
                                     <img src={Arrow_up} alt="" />
                                 </div>
@@ -52,7 +55,7 @@ const Dashboard = () => {
                                     <span>NGN 7,000,000.00</span>
                                 </div>
                             </div>
-                            <div className={classes.grey}>
+                            <div className={classes.greyss}>
                                 <div className={classes.down}>
                                     <img src={Three} alt="" />
                                 </div>

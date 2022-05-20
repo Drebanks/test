@@ -12,6 +12,8 @@
   margin: 0 auto;
   width: 100%;
   max-width: 550px;
+  position: relative;
+
 }
 .het {
   font-family: "TT Commons";
@@ -49,20 +51,31 @@ height: 66px;
     color: #04004D;
     font-weight: 400;
 font-size: 18px;
+font-family: 'TT Commons';
 line-height: 18px;
 }
 .part p:nth-of-type(2){
     color: #1A1A1A;
+    font-family: 'TT Commons';
     font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 margin-top:20px;
 }
-
 .buts {
   display: flex;
   justify-content: center;
   margin-top:30px;
+}
+input [type="radio"]{
+  appearance: none;
+  background: #ffffff;
+  margin: 0;
+  font: inherit;
+  width:1.15em;
+  height:1.15em;
+  border-radius: 50%;
+  transform: translateY(-0.075em)
 }
 .btn {
     background: #5f31b4;

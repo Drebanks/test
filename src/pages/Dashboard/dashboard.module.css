@@ -26,7 +26,8 @@ line-height: 28px;
 border: 0.5px solid #5F31B4;
 box-shadow: 0px 6px 38px rgba(0, 0, 0, 0.06);
 border-radius: 20px;
-width:50%
+width:60%;
+height: auto;
 }
 .rite{
   flex-basis: 70%;
@@ -82,6 +83,7 @@ padding:15px;
 font-size: 14px;
 line-height: 18px;
 color: #04004D;
+font-family: 'TT Commons';
 }
 .grey{
   background: #FBF7FD;
@@ -91,7 +93,26 @@ margin-top:20px;
 display: flex;
 gap: 30px;
 }
-.grey div p{
+.greyss{
+  border-radius: 10px;
+  padding: 20px;
+  margin-top:20px;
+  display: flex;
+  gap: 30px;
+  background: #F7F7F8;
+  
+}
+.greys{
+  border-radius: 10px;
+  padding: 20px;
+  margin-top:20px;
+  display: flex;
+  gap: 30px;
+  background: #ECFDF5;
+}
+.grey div p,
+.greys div p,
+.greyss div p{
   font-family: 'TT Commons';
 font-style: normal;
 font-weight: 400;
@@ -99,7 +120,9 @@ font-size: 14px;
 line-height: 18px;
 color: #04004D;
 }
-.grey div span{
+.grey div span,
+.greys div span,
+.greyss div span{
   font-family: 'TT Commons';
   font-style: normal;
   font-weight: 400;

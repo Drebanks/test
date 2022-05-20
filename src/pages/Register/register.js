@@ -23,7 +23,7 @@ const Register = () => {
                     />
                     <br />
                     <br />
-                    <label>Password</label>
+                    <label>Password (6 Characters or more)</label>
                     <br />
                     <br />
                     <div className={classes.eyes}>
@@ -31,7 +31,7 @@ const Register = () => {
                             {password ? <Eye /> : <EyeCancel />}
                         </div>
                         <input
-                            type="password"
+                            type={password ? "password" : "text"}
                             placeholder="Password"
                             className={classes.password}
                         />

@@ -1,25 +1,52 @@
+import { Link } from "react-router-dom";
 import classes from "./sidebar.module.css";
-// import Dash from "../../assets/images/Dashboard.svg";
+import Dash from "../../assets/images/Dashboard.svg";
 
 const Sidebar = () => {
-    return (  
-        <div className={classes.container}>
-            <ul className={classes.list}>
-                <li>Home</li>
-                <li>Transactions</li>
-                <li>Accounts</li>
-                <li>Transfers</li>
-                <li>Invoice</li>
-                <li>Issuing</li>
-                <li>Settings</li>
-                <li>API Docs</li>
-            </ul>
-            <div className={classes.foot}>
-                <p>Megatrust Nigerian</p>
-                <p>Foods Limited</p>
-            </div>
-        </div>
-    );
-}
- 
+  return (
+    <div className={classes.container}>
+      <ul className={classes.list}>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/#">Transactions</Link>
+          
+        </li>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/#">Accounts</Link>
+        </li>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/#">Transfers</Link>
+        </li>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/#">Invoice</Link>
+          
+        </li>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/#">Issuing</Link>
+        </li>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/#">Settings</Link>
+        </li>
+        <li>
+          <img src={Dash} alt="" />
+          <Link to="/#">API DOCS</Link>
+        </li>
+      </ul>
+      <div className={classes.foot}>
+        <p>Megatrust Nigerian</p>
+        <p>Foods Limited</p>
+      </div>
+    </div>
+  );
+};
+
 export default Sidebar;

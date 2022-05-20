@@ -30,6 +30,13 @@
 }
 .form label {
   margin-bottom: 10px;
+  font-family: 'TT Commons';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+  color: #04004D;
+
+opacity: 0.85;
 }
 .form input {
   width: 100%;
@@ -37,6 +44,9 @@
   background: #ffffff;
   border: 1px solid #beabe3;
   border-radius: 9px;
+}
+.form input:focus {
+  outline: 1px solid #04004d;
 }
 .eyes {
   position: relative;
