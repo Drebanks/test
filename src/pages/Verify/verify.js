@@ -23,7 +23,6 @@ const Verify = () => {
                         <Link to="/success" className={classes.btn}>Verify Business</Link>
                     </div>
                     </form>
-                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed Lorem ipsum dolor sit amet, consectetur </p> */}
                 </div>
             </div>
         </div>

@@ -1,7 +1,6 @@
 .container{
     height: 85vh;
     width:250px;
-    /* background-color: green; */
 }
 .list{
     list-style: none;
@@ -22,10 +21,10 @@ display: flex;
 align-items: center;
 
 }
-/* .list li> img{
-    list-style: none;
-    
-} */
+.list li a{
+    font-size:100px,
+}
+
 .foot{
     margin-top:250px;
     font-family: 'TT Commons';
