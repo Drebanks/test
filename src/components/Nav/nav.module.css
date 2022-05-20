@@ -1,78 +1,75 @@
-.nav{
+.nav {
   padding: 40px 30px 20px 30px;
-    display: flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   cursor: pointer;
 }
-.right{
-    display: flex;
-    gap:20px;
-    /* justify-content:space-between; */
-    /* margin-left:20px */
+.right {
+  display: flex;
+  gap: 20px;
+  /* justify-content:space-between; */
+  /* margin-left:20px */
 }
-.sign{
-  font-family: 'TT Commons';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-color: #04004D;
-opacity: 0.7;
-
+.sign {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #04004d;
+  opacity: 0.7;
 }
 .small {
   background: #6d3cc8;
   width: 36px;
   height: 36px;
-  border-radius:50%;
+  border-radius: 50%;
   align-items: center;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
-.smalle{
+.smalle {
   background: #6d3cc8;
   width: 36px;
   height: 36px;
-  border-radius:50%;
+  border-radius: 50%;
   align-items: center;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  color: #FCFCFC;
-  font-family: 'TT Commons';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-
+  color: #fcfcfc;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
 }
-.details{
-    display: flex;
-    
+.details {
+  display: flex;
 }
-.inner p{
-  font-family: 'TT Commons';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-color: #04004D;
-opacity: 0.7;
+.inner p {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #04004d;
+  opacity: 0.7;
 }
 
-.inner span{
-justify-content: flex-end;
-font-family: 'TT Commons';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-/* line-height: 24px; */
-color: #04004D;
+.inner span {
+  justify-content: flex-end;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  /* line-height: 24px; */
+  color: #04004d;
 
-opacity: 0.7;
+  opacity: 0.7;
 }
-.name{
-    display: flex;
-    justify-content: flex-end;  
+.name {
+  display: flex;
+  justify-content: flex-end;
 }

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./sidebar.module.css";
 import Dash from "../../assets/images/Dashboard.svg";
+import Acc from "../../assets/images/dash/Account.svg";
 
 const Sidebar = () => {
   return (
@@ -16,7 +17,7 @@ const Sidebar = () => {
           
         </li>
         <li>
-          <img src={Dash} alt="" />
+          <img src={Acc} alt="" />
           <Link to="/#">Accounts</Link>
         </li>
         <li>

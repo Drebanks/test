@@ -1,11 +1,15 @@
 .container {
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
     rgba(165, 134, 234, 0.075) 88.02%,
     rgba(152, 116, 231, 0.15) 106.17%
   );
+  
+   */
   height: 100vh;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(165, 134, 234, 0.075) 88.02%, rgba(152, 116, 231, 0.15) 106.17%);
+  /* background: #F7F7F8; */
 }
 .net {
   /* background: red; */
@@ -20,8 +24,11 @@
   /* background:blue; */
 }
 .nothing {
-  /* background: green; */
-  background: #ffffff;
+ 
+background: #FFFFFF;
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+border-radius: 9px;
+  margin-top:100px;
   border-radius: 9px;
   padding: 40px;
 }

@@ -7,22 +7,38 @@ const LineChart = () => {
   Chart.register(...registerables);
 
   const data = {
-    labels: ["MAR 2021, MAR 2021, MAR 2021, MAR 2021, MAR 2021, MAR 2021"],
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
     datasets: [
       {
-        label: "For Month of march (M)",
-        data: ["0, 10, 500, 1000, 10000"],
-        backgroundColor: ["red, green"]
+        label: "Inflow",
+        data: [0, 10, 500, 1000, 10000, 2000],
+        backgroundColor: "#6D3CC8",
+        borderColor: "#6D3CC8",
       },
       {
-          label: "For Month of march (M)",
-          data: ["0, 10, 500, 1000, 10000"],
-      }
+        label: "Outflow",
+        data: [2000, 10, 900, 5000, 1000, 2000],
+        backgroundColor: "#059669",
+        borderColor: "#059669",
+      },
     ],
   };
   return (
     <div className={classes.cont}>
-      <Line data={data} />
+      <Line
+        data={data}
+        option={{
+          title: {
+            display: true,
+            text: "Months",
+            fontSize: 16,
+          },
+          legend: {
+            display: true,
+            position: "right",
+          },
+        }}
+      />
     </div>
   );
 };
