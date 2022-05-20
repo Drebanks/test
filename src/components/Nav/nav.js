@@ -11,7 +11,7 @@ const Nav = () => {
           <img src={Logo} alt="Logo" />
         </Link>
       </div>
-      <div className={classes.right}>
+      <div className={classes.righte}>
       <Link to="./signin" className={classes.sign}>Sign In</Link>
       </div>
     </nav>

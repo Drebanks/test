@@ -93,3 +93,11 @@ opacity: 0.85;
   color: #2e216e;
   opacity: 0.45;
 }
+@media screen and (max-width: 768px) {
+  .container{
+    padding: 30px;
+  }
+  .content{
+    width: 100%;
+  }
+}

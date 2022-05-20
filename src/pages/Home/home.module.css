@@ -106,3 +106,21 @@ input [type="radio"]{
   color: #2e216e;
   opacity: 0.45;
 }
+
+@media screen and (max-width: 768px) {
+  .container{
+    padding: 30px;
+  }
+  .content{
+    width: 100%;
+  }
+  .top{
+    width: 100%;
+  }
+  .top span{
+    display: none;
+  }
+  .part p:nth-of-type(2){
+        font-size: 12px;
+  }
+}

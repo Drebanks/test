@@ -6,7 +6,8 @@
 .logo {
   cursor: pointer;
 }
-.right {
+.right,
+.righte {
   display: flex;
   gap: 20px;
  }
@@ -69,4 +70,9 @@
 .name {
   display: flex;
   justify-content: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .right{
+    display:none;
+  }
 }

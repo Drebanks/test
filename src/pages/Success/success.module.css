@@ -97,3 +97,11 @@ font-size: 21px;
 line-height: 23px;
 color: #04004D;
 }
+@media screen and (max-width: 768px){
+  .container{
+    padding: 30px;
+  }
+  .net{
+    width: 100%;
+  }
+}
