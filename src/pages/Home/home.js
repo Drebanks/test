@@ -1,10 +1,22 @@
 import classes from "./home.module.css";
-import Radio from "../../assets/images/Radio.svg";
+// import Radio from "../../assets/images/Radio.svg";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 // import { home } from "../../components/constants/index";
 
 const Home = () => {
+  const [disabled, setDisabled] = useState(true);
+  const [radio, setRadio] = useState(false);
+  const [value, setValue] = useState('');
+
+  // const handleChange = (event) => {
+  //   setValue(event.target.value);
+  // }.
+  const handleChange = (event) => {
+    setDisabled(event.target.value === "");
+  }
+
   return (
     <div className={classes.container}>
       <div className={classes.content}>
@@ -14,38 +26,51 @@ const Home = () => {
             Business account for free
           </p>
           <div>
-            <div className={classes.top}>
-              <span></span>
+            <label className={classes.top}>
+              <span className={classes.span}></span>
               <div className={classes.part}>
                 <p>Business</p>
                 <p>
-                  You’re a freelance/developer with little to no <br />{" "}
+                  You’re a freelance/developer with little to no <br />
                   knowledge about the business.
                 </p>
               </div>
-              
-              <div>
-                {/* <input type="radio" name="pin" /> */}
-                <img src={Radio} alt="" />
 
+              <div className={classes.rott}>
+                <input
+                  type="radio"
+                  name="radio" checked
+                  onChange={handleChange}
+
+                />
+                <span className={classes.checkmark}></span>
+                {/* <input type="radio" name="pin" /> */}
+                {/* <img src={Radio} alt="" /> */}
               </div>
-            </div>
-            <div className={classes.top}>
-              <span></span>
+            </label>
+            <label className={classes.top}>
+              <span className={classes.span}></span>
               <div className={classes.part}>
                 <p>Employee</p>
                 <p>
-                  You’re a freelance/developer with little to no <br />{" "}
+                  You’re a freelance/developer with little to no <br />
                   knowledge about the business.
                 </p>
               </div>
-              <div className={classes.really}>
-                {/* <input type="radio" name="pin" /> */}
-                <img src={Radio} alt="" />
+              <div className={classes.rott}>
+                <input
+                  type="radio"
+                  name="radio"
+                  // onChange={(e) =>
+                  //   e.target.checked ? setDisabled(true) : setDisabled(false)
+                  // }
+                />
+                <span className={classes.checkmark}></span>
+                {/* <img src={Radio} alt="" /> */}
               </div>
-            </div>
-            <div className={classes.top}>
-              <span></span>
+            </label>
+            <label className={classes.top}>
+              <span className={classes.span}></span>
               <div className={classes.part}>
                 <p>Developer</p>
                 <p>
@@ -53,18 +78,30 @@ const Home = () => {
                   knowledge about the business.
                 </p>
               </div>
-              <div>
-                {/* <input type="radio" name="pin" /> */}
-                <img src={Radio} alt="" />
+              <div className={classes.rott}>
+                <input
+                  type="radio"
+                  name="radio"
+                  // onChange={(e) =>
+                  //   e.target.checked ? setDisabled(true) : setDisabled(false)
+                  // }
+                />
+                <span className={classes.checkmark}></span>
+                {/* <img src={Radio} alt="" /> */}
               </div>
-            </div>
+            </label>
           </div>
         </div>
-        <div className={classes.buts}>
-          <Link to="./signup" className={classes.btn}>
-            Sign Up
-          </Link>
-        </div>
+        <button
+          type="button"
+          className={classes.buts}
+          disabled={disabled}
+          onClick={() => setDisabled(true)}
+        >
+          {/* <Link to="./signup" className={classes.btn}> */}
+          Sign Up
+          {/* </Link> */}
+        </button>
         <p className={classes.last}>
           By clicking this, you agree to our Data <br />
           privacy terms and conditions

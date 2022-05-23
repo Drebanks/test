@@ -13,7 +13,6 @@
   width: 100%;
   max-width: 550px;
   position: relative;
-
 }
 .het {
   font-family: "TT Commons";
@@ -34,65 +33,128 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;  
-
+  cursor: pointer;
 }
-.top span {
+.span {
   background: #f0edf2;
   border-radius: 9px;
   width: 66px;
-height: 66px;   
+  height: 66px;
 }
-.part{
-    text-align:left;
-    align-items: flex-start;
+.part {
+  text-align: left;
+  align-items: flex-start;
 }
-.part p:nth-of-type(1){
-    color: #04004D;
-    font-weight: 400;
-font-size: 18px;
-font-family: 'TT Commons';
-line-height: 18px;
+.part p:nth-of-type(1) {
+  color: #04004d;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "TT Commons";
+  line-height: 18px;
 }
-.part p:nth-of-type(2){
-    color: #1A1A1A;
-    font-family: 'TT Commons';
-    font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-margin-top:20px;
+.part p:nth-of-type(2) {
+  color: #1a1a1a;
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 20px;
 }
 .buts {
   display: flex;
   justify-content: center;
-  margin-top:30px;
+  margin-top: 30px;
 }
-input [type="radio"]{
-  appearance: none;
-  background: #ffffff;
-  margin: 0;
-  font: inherit;
-  width:1.15em;
-  height:1.15em;
+.rott {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.rott input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #eee;
   border-radius: 50%;
-  transform: translateY(-0.075em)
+}
+
+.rott:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.rott input:checked ~ .checkmark {
+  background-color: white;
+  border: 1.5px solid #beabe3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.rott input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.rott .checkmark:after {
+  top: 2.5px;
+  left: 2.5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #7c5ad3;
+}
+.buts{
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #5f31b4;
+  border: 1px solid #48258d;
+  border-radius: 9px;
+  cursor: pointer;
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+
 }
 .btn {
-    background: #5f31b4;
-    border: 1px solid #48258d;
-    border-radius: 9px;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    font-family: "TT Commons";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    cursor: pointer;
-  }
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  /* width: 100%; */
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
 
 .last {
   text-align: center;
@@ -108,19 +170,19 @@ input [type="radio"]{
 }
 
 @media screen and (max-width: 768px) {
-  .container{
+  .container {
     padding: 30px;
   }
-  .content{
+  .content {
     width: 100%;
   }
-  .top{
+  .top {
     width: 100%;
   }
-  .top span{
+  .span {
     display: none;
   }
-  .part p:nth-of-type(2){
-        font-size: 12px;
+  .part p:nth-of-type(2) {
+    font-size: 12px;
   }
 }

@@ -33,6 +33,7 @@ const Transaction = () => {
 
                 ))}
             </table>
+            <br/>
             <p className={classes.mach}>March 24, 2021</p>
             <table>
                 <thead>

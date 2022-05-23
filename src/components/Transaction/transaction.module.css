@@ -4,6 +4,7 @@
   align-items: center;
   border-bottom:1px solid #F0EDF2;
   padding-bottom:14px;
+  margin-bottom:12px;
 }
 .conten p{
   color: #04004D;
@@ -36,7 +37,8 @@ line-height: 24px;
 table {
   width: 100%;
   text-align: left;
-  padding: 20px;
+  margin-top:10px;
+  /* padding: 20px; */
 }
 table th {
   color: #04004d;
