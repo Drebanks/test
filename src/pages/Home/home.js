@@ -39,7 +39,8 @@ const Home = () => {
               <div className={classes.rott}>
                 <input
                   type="radio"
-                  name="radio" checked
+                  name="radio"
+                  value="business"
                   onChange={handleChange}
 
                 />
@@ -61,6 +62,7 @@ const Home = () => {
                 <input
                   type="radio"
                   name="radio"
+                  value="employee"
                   // onChange={(e) =>
                   //   e.target.checked ? setDisabled(true) : setDisabled(false)
                   // }
@@ -82,6 +84,7 @@ const Home = () => {
                 <input
                   type="radio"
                   name="radio"
+                  value="developer"
                   // onChange={(e) =>
                   //   e.target.checked ? setDisabled(true) : setDisabled(false)
                   // }
@@ -98,9 +101,9 @@ const Home = () => {
           disabled={disabled}
           onClick={() => setDisabled(true)}
         >
-          {/* <Link to="./signup" className={classes.btn}> */}
+          <Link to="./signup" className={classes.btn}>
           Sign Up
-          {/* </Link> */}
+          </Link>
         </button>
         <p className={classes.last}>
           By clicking this, you agree to our Data <br />
